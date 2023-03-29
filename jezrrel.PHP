@@ -6,7 +6,7 @@
 <body>
 <h1> ACESSO A INFORMAÇÃO </h1>
 
-<?php
+<?php 
  $servername="localhost";
  $username="id20529078_info";
  $password="Aa@06102005";
@@ -18,7 +18,7 @@ if ($conn->connect_error) {
   die ("connection failed ". $ conn->connect_error);
 }
 
-echo "conectado ao db"
+echo "conectado ao db";
 ?>
 
 <?php
