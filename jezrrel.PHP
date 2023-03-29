@@ -14,7 +14,7 @@
 
 
 $conn= new mysqli($servername,$username,$password); $namedb
-if ($conn->connect_error); {
+if ($conn->connect_error) {
   die ("connection failed ". $ conn->connect_error);
 }
 
