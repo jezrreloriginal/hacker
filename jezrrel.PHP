@@ -13,7 +13,7 @@
  $namedb="id20529078_agenda";
 
 
-$conn= new mysqli($servername,$username,$password); $name db
+$conn= new mysqli($servername,$username,$password); $namedb
 if ($conn->connect_error); {
   die ("connection failed ". $ conn->connect_error);
 }
