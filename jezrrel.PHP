@@ -12,6 +12,7 @@
  $password="Aa@06102005";
  $namedb="id20529078_agenda";
 
+
 $conn= new mysqli($servername,$username,$password); $name db
 if ($conn->connect_error); {
   die ("connection failed ". $ conn->connect_error);
