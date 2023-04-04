@@ -12,13 +12,17 @@
  $password="Aa@06102005";
  $namedb="id20529078_agenda";
 
+ $conn = new mysqli($servername, $username, $password, $dbname);
 
-$conn= new mysqli($servername,$username,$password); $namedb
-if ($conn->connect_error) {
-  die ("connection failed ". $ conn->connect_error);
-}
+ if ($conn->connect_error) {
+     die("Falha na conexão: " . $conn->connect_error);
+ }
+ 
+ ?>
+ 
 
-echo "conectado ao db";
+
+echo="conectado ao db";
 ?>
 
 <?php
