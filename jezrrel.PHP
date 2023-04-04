@@ -18,11 +18,8 @@
      die("Falha na conexão: " . $conn->connect_error);
  }
  
- ?>
  
-
-
-echo="conectado ao db";
+echo"conectado ao db";
 ?>
 
 <?php
@@ -39,6 +36,9 @@ if ($ result-> num_rows>0){
 <?php
 $conn-> close ()
 ?>
+
+
+  
 
 
 
